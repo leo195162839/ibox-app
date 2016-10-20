@@ -42,7 +42,7 @@ public class GoogleDriveFileSyncManagerIntegrationTest {
 	/*
 	 * 	Integration test for addFile method*\
 	 */
-	@Test
+	//@Test
 	public void addFileIntegrationTest() throws IOException {
 		System.out.println("Start adding File.");
 		System.out.println("... ...");
@@ -56,7 +56,7 @@ public class GoogleDriveFileSyncManagerIntegrationTest {
 	/*
 	 * 	Integration test for updateFile method*\
 	 */
-	@Test
+	//@Test
 	public void updateFileIntegrationTest() throws IOException {
 		System.out.println("Start updating File.");
 		System.out.println("... ...");
@@ -70,7 +70,7 @@ public class GoogleDriveFileSyncManagerIntegrationTest {
 	/*
 	 * 	Integration test for deleteFile method*\
 	 */
-	@Test
+	//@Test
 	public void deleteFileIntegrationTest() throws IOException {
 		System.out.println("Start deleting File.");
 		System.out.println("... ...");
