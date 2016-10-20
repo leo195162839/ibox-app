@@ -81,6 +81,7 @@ public class GoogleDriveFileSyncManagerTest {
 		when(mockFiles.insert(isA(File.class), isA(AbstractInputStreamContent.class))).thenReturn(mockInsert);
 		when(mockInsert.execute()).thenReturn(googleFile);
 		
+		//Invoke
 		mockSyncManager.addFile(dummyFile);
 		
 		//Verify
@@ -106,6 +107,7 @@ public class GoogleDriveFileSyncManagerTest {
 		when(mockFiles.update(isA(String.class), isA(File.class), isA(AbstractInputStreamContent.class))).thenReturn(mockUpdate);
 		when(mockUpdate.execute()).thenReturn(updatedFile);
 		
+		//Invoke
 		mockSyncManager.updateFile(dummyFile);
 		
 		//Verify
@@ -133,6 +135,7 @@ public class GoogleDriveFileSyncManagerTest {
 		when(mockFiles.delete(isA(String.class))).thenReturn(mockDelete);
 		when(mockDelete.execute()).thenReturn(null);
 		
+		//Invoke
 		mockSyncManager.deleteFile(dummyFile);
 		
 		//Verify
